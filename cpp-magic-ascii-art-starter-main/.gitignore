@@ -1,0 +1,37 @@
+# Ignore build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+
+# Ignore Visual Studio-specific files
+*.sln
+*.vcxproj*
+*.user
+*.opensdf
+*.ncb
+*.sdf
+*.suo
+*.ipch
+*.ilk
+*.pdb
+*.obj
+*.log
+*.tlog
+
+# Ignore compiled binaries
+*.exe
+*.out
+/out/
+*.a
+*.o
+*.lib
+*.dll
+*.so
+
+# Ignore Clangd and VS Code settings
+/.vscode/
+/.clangd
+/.idea/
+
+# Ignore dependency libraries (if any)
+vendor/
